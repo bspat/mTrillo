@@ -36,6 +36,6 @@ W ramach repozytorium znajdują się również:
 ## Stopień ukończenia
 
 Stopień ukończenia poszczególnych elementów:
-* tlumaczenie --- rozpoczęte, ok. 2%
+* tlumaczenie --- rozpoczęte, ok. 4%
 * tlumaczenieErrata --- czeka na rozpoczęcie
 * podrecznik --- czeka na rozpoczęcie
