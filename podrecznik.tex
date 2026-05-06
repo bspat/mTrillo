@@ -1,0 +1,46 @@
+\documentclass[12p, oneside]{book}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage{color}
+\usepackage[table, usenames, dvipsnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, 
+    linktoc=all,    
+    linkcolor=blue,
+}
+
+
+
+\newcommand{\steno}[1]{\textbf{\textsf{\textcolor{violet}{ #1}}}}
+
+\newcommand{\stenoExc}[1]{\textbf{\textsf{\textcolor{red}{ #1}}}}
+
+\newenvironment{tabela2}
+	{
+		\rowcolors{1}{cyan}{Emerald}
+		\begin{tabular}{c c}
+	}
+	{
+		\end{tabular}
+	}
+
+
+\setcounter{secnumdepth}{0}
+\begin{document}
+
+\frontmatter
+
+\title{Polski System Stenotypii}
+
+\author{B. P.}
+\maketitle
+\newpage
+
+\tableofcontents
+
+\chapter{Wstęp}
+\chapter{Kurs}
+\chapter{Pełny opis systemu}
+
+\end{document}
