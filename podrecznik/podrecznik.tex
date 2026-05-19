@@ -48,24 +48,127 @@
 
 \chapter{Pełny opis systemu}
 \section{Klawiatura}
-\includegraphics[width=10cm]{grafika/pss/klawiatura.jpg}
+\includegraphics[width=12cm]{grafika/pss/klawiatura.jpg}
 
 Powyżej przedstawiony jest układ klawiatury wykorzystywany przez PSS. Klawiatura jest podzielona na cztery części:
-\begin{enumerate}
+\begin{itemize}
 	\item Lewa górna --- odpowiedzialna za spółgłoski początkowe oraz samogłoski posiłkowe --- tę część obsługuje się palcami lewej dłoni
 	\item Lewa dolna --- klawisz J odpowiedzialny za udźwięcznianie oraz dwa klawisze samogłosek --- tę część obsługuje się lewym kciukiem
 	\item Prawa dolna --- trzy klawisze samogłosek --- tę część obsługuje się prawym kciukiem
 	\item Prawa górna --- odpowiedzialna za spółgłoski końcowe oraz samogłoski dodatkowe --- tę część obsługuje się palcami prawej dłoni
-\end{enumerate}
+\end{itemize}
 
+\includegraphics[width=12cm]{grafika/pss/pozycjepoczatkowe.jpg}
+Początkowe pozycje poszczególnych palców razem z obsługiwanymi przez nie klawiszami.
 
 \section{Budowa akordu}
+Akord --- jednoczesne wciśnięcie i puszczenie pewnej ilości klawiszy na klawiaturze w taki sposób, aby wszystkie zostały zarejestrowane i przetworzone przez oprogramowanie stenograficzne.
+\subsection{Porządek stenotypiczny}
+Akordy zapisuje się, wymieniając wykorzystane klawisze w następującym porządku:
+
+\steno{X F Z S K T P V L R J E I \# * Y A U C R L B S G T W O V}
+
+W przypadku niewystąpienia wewnątrz akordu żadnego z klawiszy z części środkowej (tj. \steno{J, E, I, \#, *, Y, A} oraz \steno{U}) w jego miejsce wpisywany jest myślnik (\steno{--}).
 \subsection{Rdzenie}
-\subsection{Przedrostki}
+Rdzeń to najbardziej podstawowa forma akordu. Co do zasady składa się z trzech części:
+\begin{enumerate}
+	\item Spółgłoski początkowe
+	\item Samogłoski
+	\item Spółgłoski końcowe
+\end{enumerate}
+Oprócz tego w wielu przypadkach (w celu zmniejszenia liczby akordów) będą wykorzystywane \hyperref[sec:dodatkowe]{samogłoski dodatkowe}, których zasady wykorzystywania są przedstawione w rozdziale im poświęconym.
+
+Rdzenie najczęściej pokrywają się z semantycznymi rdzeniami wyrazów. 
+
+Domyślnie rdzenie nie łączą się ze sobą.
+
+\subsubsection{Samogłoski}
+Samogłoski stanowią ośrodek prawie każdego rdzenia. Są zapisywane z wykorzystaniem kciuków. Samogłoski przyjmują dwie postacie --- podstawową i zmiękczającą --- w zależności od obecności klawisza \steno{J} w grupie spółgłosek początkowych. Szczegóły na temat zapisywania \hyperref[sec:samogloski]{samogłosek} można znaleźć wewnątrz rozdziału im poświęconego.
+
+\subsubsection{Spółgłoski początkowe}
+Bardzo często właśnie od spółgłosek początkowych zależy znaczenie wyrazu. Są to spółgłoski występujące \emph{przed} samogłoskami. Każdej możliwej grupie spółgłoskowej przypisana jest odpowiadająca jej kombinacja klawiszy po lewej stronie klawiatury. Ich listę, jak również szczegółowe zasady wykorzystywania można zobaczyć w rozdziale poświęconym \hyperref[sec:poczatkowe]{spółgłoskom początkowym}.
+
+\subsubsection{Spółgłoski końcowe}
+Spółgłoski końcowe są zapisywane palcami prawej dłoni. Są to spółgłoski występujące \emph{po} samogłosce w danym akordzie. Lista poszczególnych kombinacji dostępna jest w rozdziale poświęconym \hyperref[sec:koncowe]{spółgłoskom końcowym}.
+
 \subsection{Przyrostki}
+Przyrostki to akordy, których przeznaczeniem jest połączyć się z poprzednim podanym akordem. Są to zwykłe rdzenie, do których dołączono specjalną cząstkę zgodnie z następującą tabelą:
+
+\begin{tabular}{| c | c |}
+	\hline
+	Klawisze & Od czego zaczyna się przyrostek \\ \hline
+	\steno{ZKPL--} & Od samogłoski \\ \hline
+	\steno{--OY} & Od klawiszy \steno{Z--} lub \steno{S--} \\ \hline
+	\steno{XF--} & Wszystkie pozostałe \\ \hline
+\end{tabular}
+
+
+\subsubsection{Szczególne zachowania}
+
+Ciekawym zachowaniem, właściwym dla przyrostków w PSS jest zachowanie w obecności rdzeniów kończących się na głoskę zmiękczoną (ś, ź, ć, ń, dź). Po przyłączeniu przyrostka zaczynającego się od samogłoski, cała grupa zostanie zmieniona na odpowiadającą jej ze zmiękczeniem przez i niezgłoskotwórcze. Przykłady:
+
+\begin{center}
+troć + -ie $\rightarrow$ trocie
+		
+brać + -i $\rightarrow$ braci
+
+koń + -e $\rightarrow$ konie
+\end{center}
+
+Umożliwia to pewną elastyczność co do używania na końcu rdzeni głosek zmiękczonych lub podstawowych.
+
+Ze względów etymologicznych, podobne zjawisko ma miejsce przy rdzeniach kończących się na t i przyrostkach zaczynających się od i:
+
+\begin{center}
+brat + -ia $\rightarrow$ bracia
+
+kot + -ie $\rightarrow$ kocie
+\end{center}
+
+Wyrazy, których nie dotyczy ta zasada (sympatia, apatia etc.) są uwzględnione w słowniku i nie podlegają temu zjawisku automatycznie.
+
+\subsection{Przedrostki}
+Przedrostki to akordy, które mają połączyć się z kolejnym podanym akordem --- odpowiadają semantycznym przedrostkom.
+
+Tworzy się je, dodając do standardowego rdzenia znak \steno{*}.
+
+Należy być ostrożnym z tworzeniem przedrostków, gdyż istotna część z nich jest skróceniami.
+
 \subsection{Specjalne}
+Istnieją akordy o specjalnym znaczeniu:
+
+\begin{tabular}{| c | c |}
+	\hline
+	Akord & Znaczenie \\ \hline
+	\stenoExc{XF--OV} & Połączenie dwóch rdzeni bez spacji \\ \hline
+	\stenoExc{XF}\hyperref[sec:samogloski]{samogłoska}\stenoExc{OV} & Połączenie dwóch rdzeni bez spacji, ze wstawieniem odpowiedniego wrostka \\ \hline
+	\stenoExc{XF*OV} & Wymuszenie spacji \\ \hline
+\end{tabular}
+
 \section{Samogłoski}
-\section{Spółgłoski w nagłosie}
-\section{Spółgłoski w wygłosie}
+\label{sec:samogloski}
+Przez samogłoskę wewnątrz PSS są rozumiane wszystkie samogłoski, dyftongi, oraz ich połączenia z "i niezgłoskotwórczym". Każda samogłoska ma dwie wersje --- podstawową i udźwięczniającą. Udźwięczniająca jest wykorzystywana w połączeniu ze wszystkimi grupami spółgłosek początkowych zawierających klawisz \steno{J} (nazwa pochodzi od faktu, że w większości przypadków \steno{J} wewnątrz grupy spółgłosek początkowych oznacza udźwięcznienie w stosunku do grupy bez niego).
+
+
+\section{Spółgłoski początkowe}
+\label{sec:poczatkowe}
+
+\section{Spółgłoski końcowe}
+\label{sec:koncowe}
+
+\section{Samogłoski dodatkowe}
+\label{sec:dodatkowe}
+
+\section{Samogłoski posiłkowe}
+\label{sec:posilkowe}
+\chapter{Przykłady}
+Poniżej dostarczone są przykładowe teksty z proponowanym podziałem na akordym, zapisem stenotypicznym prostym oraz ze skróceniami. Należy pamiętać, że jest to jedynie propozycja, aczkolwiek ściśle spójna z przedstawionym systemem. Pomimo to, w przypadku znalezienia szybszego sposobu zapisu należy się go trzymać.
+\section{Przykład 1 --- fragment deklaracji praw człowieka}
+\subsection{Tekst}
+
+Zgromadzenie Ogólne ogłasza niniejszą Powszechną Deklarację Praw Człowieka jako wspólny standard do osiągnięcia przez wszystkie ludy i wszystkie narody, tak aby każda jednostka i każdy organ społeczny, mając stale na względzie niniejszą Deklarację, dążyły poprzez nauczanie i wychowanie do zapewnienia poszanowania tych praw i wolności, jak również do zabezpieczenia, poprzez rozwój środków o charakterze krajowym i międzynarodowym, ich powszechnego i skutecznego uznania i przestrzegania, tak pośród ludów Państw Członkowskich, jak też pośród ludów terytoriów znajdujących się pod ich jurysdykcją. 
+
+\subsection{Podział na akordy --- podstawowy}
+Zgrom  /  -adz / -en / -ie / O- / gól / -ne / o- / głasz / -a / nin / -iej / -szą / Po- / wszechn / -ą / De- / klar / -ac / -ję / Praw / Człow / -ie / -ka / jak / -o / wspól / -ny / stand / -ard / do / o- / siągn / -ięc / -ia / przez / wszystk / -ie / lud / -y / i / wszystk / -ie / nar / -od / -y / , / tak / ab / -y / każd / -a / jedn / -o- / -stka / i / każd / -y / org / -an / społ / -ecz / -ny / , / maj / -ąc / stal / -e / na / względz / -ie / nin / -iej / -szą / De- / klar / -ac / -ję / , / dąż / -ył / -y / po- / przez / naucz / -an / -ie / i / wy- / chow / -an / -ie / do / za- / pew / -nie / -nia / po- / szan / -ow / -an / -ia / tych / praw / i / woln / -ośc / -i / , / jak / rów / -nież / do / za- / bezp / -iecz / -eni / -a / , / po- / przez / rozw / -ój / środk / -ów / o / char / -a- / kterz / -e / kraj / -ow / -ym / i / międz / -y- / nar / -od / -ow / -ym / , / ich / po- / wszechn / -eg / -o / i / skut / -eczn / -eg / -o / u- / znan / -ia / i / prze- / strzeg / -an / -ia / , / tak / po- / śród / lud / -ów / Państw / Członk / -ow / -skich / , / jak / też / po- / śród / lud / -ów / ter / -yt / -or / -iów / znajd / -uj / -ąc / -ych / się / pod / ich / jur / -y- / sdyk / -cją / . 
 
 \end{document}
